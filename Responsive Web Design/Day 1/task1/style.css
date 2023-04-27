@@ -1,0 +1,93 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --light-gray: #e4e4e4;
+  --main-blue: #6c63ff;
+  --main-white: #fff;
+  --main-blue-Hover: #544ecb;
+}
+ul {
+  list-style: none;
+}
+body,
+main.container,
+main.container .details,
+main.container section,
+main.container section div,
+main.container footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+main.container {
+  flex-direction: column;
+  background-color: var(--light-gray);
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 30px;
+  gap: 15px;
+  min-width: 80vw;
+  min-height: 80vh;
+}
+
+main.container .details {
+  background-color: var(--main-blue);
+  color: var(--main-white);
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  flex-grow: 1;
+}
+main.container .details li {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--main-blue);
+  cursor: pointer;
+}
+main.container .details li:hover {
+  background-color: var(--main-blue-Hover);
+}
+main.container section {
+  background-color: var(--main-white);
+  padding: 10px;
+  gap: 10px;
+  flex-grow: 1;
+  align-items: stretch;
+}
+main.container section div {
+  padding: 5px;
+  background-color: var(--light-gray);
+}
+main.container section div .item {
+  padding: 5px;
+  background-color: var(--main-blue);
+}
+main.container footer {
+  background-color: var(--main-blue);
+  color: var(--main-white);
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  main.container .details,
+  main.container section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

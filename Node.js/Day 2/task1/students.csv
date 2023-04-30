@@ -1,0 +1,10 @@
+id,firstName,lastName,dateOfBirth,gender,status,entry,city,state,zip,email
+111111,Mohamed,Salah,Jan-00,M,FT,Fall 2008,Albuquerque,New Mexico,87112,mosala@example.com
+111112,abo,Trika,1-May,F,TRANSFER,Fall 2006,New York,New York,10009,abotrika@example.com
+111113,leo,messi,21/2002,M,FTFT,Fall 2006,Pheonix,Arizona,85006,leomessi@example.com
+111114,one,two,13/2002,M,FTFT,Fall 2006,Pheonix,Arizona,85015,onetwo@example.com
+111115,tiki,taka,31/2001,F,FTFT,Fall 2007,Seattle,Washington,98106,tikitaka@example.com
+111116,off,side,2-Jan,M,TRANSFER,Fall 2006,Denver,Colorado,80012,offside@example.com
+111117,goal,kick,Jan-00,F,FTFT,Fall 2007,Austin,Texas,78703,gkick@example.com
+111118,double,kick,17/1999,F,FTGRAD,Fall 2010,Denver,Colorado,80033,dkick@example.com
+111119,super,hatrick,Apr-98,F,FTFT,Fall 2007,Denver,Colorado,80122,shatrick@example.com

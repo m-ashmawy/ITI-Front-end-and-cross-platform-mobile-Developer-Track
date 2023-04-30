@@ -1,0 +1,25 @@
+input {
+  outline: none;
+  border: 3px solid;
+  display: block;
+  margin: 0;
+}
+input:required {
+  border: red 3px solid;
+}
+input:not([type="submit"]):valid {
+  border-color: green;
+}
+input:invalid {
+  border-color: red;
+}
+input:valid + span {
+  visibility: hidden;
+}
+input:invalid + span {
+  color: red;
+}
+
+input:focus {
+  background-color: antiquewhite;
+}

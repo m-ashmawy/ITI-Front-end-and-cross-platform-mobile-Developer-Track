@@ -1,0 +1,20 @@
+button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  margin: 50px auto;
+  border-radius: 20px;
+  transition: background-color 1s ease, box-shadow 1s ease;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-transition: background-color 1s ease, box-shadow 1s ease;
+  -moz-transition: background-color 1s ease, box-shadow 1s ease;
+  -ms-transition: background-color 1s ease, box-shadow 1s ease;
+  -o-transition: background-color 1s ease, box-shadow 1s ease;
+}
+button:hover {
+  background-color: rgb(187, 125, 245);
+  box-shadow: 3px 3px 4px 0px;
+}

@@ -1,0 +1,109 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+:root {
+  --light-gray: #e4e4e4;
+  --dark-gray: #696868;
+  --main-blue: #6c63ff;
+  --main-white: #fff;
+  --input-color: #2f2c6d;
+  --main-blue-Hover: #544ecb;
+}
+
+body,
+app-root,
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.input.container {
+  background-color: var(--light-gray);
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 30px;
+  /* min-height: 600px; */
+  width: 80vw;
+  max-width: 500px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+p span {
+  color: var(--main-blue);
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 2px solid var(--main-white);
+  box-shadow: 0px 2px 5px #bbb;
+  color: var(--input-color);
+  transition: all 0.3s linear;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+input:focus {
+  border: 2px solid var(--main-blue);
+}
+input:placeholder-shown {
+  color: var(--main-blue);
+}
+input[type="button"] {
+  background-color: var(--main-blue);
+  color: var(--main-white);
+  padding: 10px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+input[type="button"]:hover {
+  background-color: var(--main-blue-Hover);
+}
+
+.slider.container {
+  background-color: var(--light-gray);
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 30px;
+  width: 80vw;
+  max-width: 700px;
+}
+.img.container {
+  box-shadow: var(--dark-gray) 0px 7px 29px 0px;
+  overflow: hidden;
+}
+img {
+  max-width: 101%;
+}
+.buttons.container {
+  flex-direction: row;
+}

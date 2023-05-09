@@ -1,0 +1,7 @@
+<div class="input container">
+  <input type="text" placeholder="enter data here" [(ngModel)]="data" />
+  <p>
+    Your Input: <span>{{ data }}</span>
+  </p>
+  <input type="button" value="Reset" (click)="reset()" />
+</div>
